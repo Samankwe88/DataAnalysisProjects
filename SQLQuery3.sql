@@ -71,3 +71,6 @@ ON dbo.CustomerClaim.Education=dbo.InsurancePolicy.Education
 Group by Employment_Status, State, Coverage, Gender, Marital_Status, Income, Monthly_Premium_Auto, Policy_Type
 --order by 1,2;
 select * from ClaimSettlement;
+select * from CustomerData;
+select * from InsuranceCoverage;
+select * from PremiumPackage;
